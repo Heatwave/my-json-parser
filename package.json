@@ -1,0 +1,29 @@
+{
+  "name": "my-json-parser",
+  "version": "1.0.0",
+  "description": "my own json parser, just for practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "lint": "eslint index.js test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Heatwave/my-json-parser.git"
+  },
+  "keywords": [
+    "json",
+    "parser"
+  ],
+  "author": "Heatwave",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Heatwave/my-json-parser/issues"
+  },
+  "homepage": "https://github.com/Heatwave/my-json-parser#readme",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "mocha": "^4.1.0"
+  }
+}
