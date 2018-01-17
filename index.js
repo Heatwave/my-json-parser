@@ -4,7 +4,7 @@
 const STRING_ESCAPE_PATTERN = /\\(["\\/bfnrt])/;
 
 function handleEmpty(json, state) {
-    while (json[state.cursor] === ' ') {
+    while (json[state.cursor] <= ' ') {
         state.cursor += 1;
         if (state.cursor > json.length - 1) {
             throw new SyntaxError('Unexpected end of JSON input');
